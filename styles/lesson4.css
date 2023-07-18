@@ -1,0 +1,58 @@
+.card-header.card-image {
+    overflow: hidden; /* so image doesnt overlow */
+}
+.card-header.card-image > img {
+    display: block; /* allows you to change width and height */
+    width: 50%;
+    border-radius: .05rem;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 0px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.card {
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;   
+    border-radius: .05rem;
+    width: 49.3%;  /* width of card and image has to be same */
+    margin-top: 5%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    margin-top: 5%;
+    margin: auto;
+}
+nav ul li {
+    display: inline;
+    display: inline-flex;
+    padding: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+.job {
+    font-size: medium;
+    text-align: center;
+}
+.name {
+    font-size: large;
+    text-align: center;
+}
+.desc {
+    font-size: medium;
+    text-align: center;
+}
+
+
+
