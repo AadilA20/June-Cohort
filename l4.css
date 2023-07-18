@@ -1,0 +1,37 @@
+.container{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkkhaki;
+}
+.container img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0.75px solid black;
+}
+.container nav ul{
+    list-style-type: none;
+    display: flex; /* squishes li items to left hand side if using ul */
+    justify-content: center; /* moves everything centrally */
+    padding: 0%; /* moves li items centrally */
+}
+.container nav ul li{
+    display: block; /* separates li items */
+    padding: 10px 15px; /* spaces li items away from each other */
+}
+.container nav ul li a{
+    text-decoration: none; /* removes hyperlink line */
+}
+.container nav ul li a:hover{
+    border-bottom: 1px;
+    color: maroon;
+}
+body{
+    background-color: maroon;
+}
+.container span{
+    color: maroon;
+}
